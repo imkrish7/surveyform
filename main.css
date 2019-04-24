@@ -1,0 +1,63 @@
+body{
+    background:teal;
+    color:white;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form{
+    background:white;
+    color:black;
+    margin:0 auto;
+}
+.labels{
+    display:inline-block;
+    text-align:right;
+    width:40%;
+    padding:5px;
+    margin:10px;
+    vertical-align:top;
+    margin-top:10px;
+}
+.rightTab{
+    display:inline-block;
+    text-align:left;
+    width:48%;
+    vertical-align:middle;
+
+}
+input{
+    height:20px;
+    padding:5px;
+}
+#roles,#likes{
+    height:35px;
+    
+}
+#button{
+    margin-bottom:5px;
+    height:40px;
+    width:100px;
+}
+/* .radio,
+.checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+} */
+
+ul li{
+    list-style: none;
+}
+/* input[type="checkbox"]{
+    float:left;
+    margin-right:5px;
+} */
+.checkbox{
+    margin:0;
+}
